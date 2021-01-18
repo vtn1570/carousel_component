@@ -23,7 +23,6 @@ Starting my project locally:
 
 1.Open file dist/index.html.
 
-
 // --------------------------------
 
 During all development i tried following specified requirements:
