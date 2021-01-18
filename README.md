@@ -28,7 +28,7 @@ Starting my project locally:
 
 During all development i tried following specified requirements:
 
-Setup the environment manually (including Webpack or any other bundler configuration).
+* Setup the environment manually (including Webpack or any other bundler configuration)
 * Must work for mobile and desktop devices
 * Must support swipes
 * Must work for any HTML content
