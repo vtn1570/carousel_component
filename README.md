@@ -12,9 +12,12 @@ Starting my project locally:
         1 method:
 
 1.Install node.js and NPM,
+
 2.In terminal write:
-    2.1: "npm install",
-    2.2: "npm run open".
+
+  2.1: "npm install",
+    
+  2.2: "npm run open".
 
         2 method:
 
