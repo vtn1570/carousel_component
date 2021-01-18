@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+/* basic */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #a1afb5;
+}
+
+.carousel__center {
+    position: relative;
+    
+}
+
+.carousel__center img {
+    height: auto;
+    width: 1200px;
+    pointer-events: none; 
+    border-radius: 5px;
+}
+
+.carousel__item {
+    width: 1200px;
+    display: none;
+    animation: Visibilty 1s;
+}
+
+.show {
+    display:block;
+}
+
+.hide {
+    display: none;
+}
+
+.carousel__buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button_left {
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    background: silver;
+}
+
+.button_right {
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+    background: silver;
+}
+
+@keyframes Visibilty {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: ease;
+    }
+}
+
+@media (max-width: 1500px) {
+    .carousel__item {
+        width: 800px;
+    }
+
+    .carousel__center img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel__item {
+        width: 600px;
+    }
+
+    .carousel__center img {
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .carousel__item {
+        width: 350px;
+    }
+
+    .carousel__center img {
+        width: 350px;
+    }
+
+    .button_left, .button_right {
+        border-radius: 35px;
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media (max-width: 350px) {
+    .carousel__item {
+        width: 300px;
+    }
+
+    .carousel__center img {
+        width: 300px;
+    }
+}
