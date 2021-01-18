@@ -25,6 +25,14 @@ Starting my project locally:
 
 // --------------------------------
 
+For adding new images in application you need to add in dist/index.html next code:
+
+    <div class = "carousel__item" id = "carousel__item">
+         <img src="" alt="">
+     </div>
+
+// --------------------------------
+
 During all development i tried following specified requirements:
 
 * Setup the environment manually (including Webpack or any other bundler configuration)
