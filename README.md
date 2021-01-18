@@ -2,7 +2,7 @@
 
 Hi everyone! Below you can find instruction about how using my carousel component which i was wrote on JS, HTML, CSS.
 
-First of all, you can check how working my application by visit this link: https://test-task-dd106.firebaseapp.com/
+First of all, you can check how working my application by visit this link: https://test-task-dd106.web.app/
 
 // --------------------------------
 
